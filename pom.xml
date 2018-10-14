@@ -5,7 +5,7 @@
 
 	<groupId>com.neo</groupId>
 	<artifactId>spring-cloud-consumer</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<packaging>jar</packaging>
 
 	<name>spring-cloud-consumer</name>
@@ -27,6 +27,20 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
