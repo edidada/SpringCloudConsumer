@@ -52,7 +52,7 @@ under the License.
    | Default: ${user.home}/.m2/repository
   <localRepository>/path/to/local/repo</localRepository>
   -->
-     <localRepository>E:/mavenrepository/test_to_delete_docker</localRepository>
+     <localRepository>E:/mavenrepository/201810</localRepository>
 	<!-- <localRepository>E:\comm-pay-cangku\repository</localRepository>-->
 	<!--	<localRepository>C:\Users\edidada\.m2\repository</localRepository>
 	  -->
